@@ -1,7 +1,7 @@
 import React from 'react';
 import { CubesProvider, useCubes } from './context/CubesContext';
 import { TopBar } from './components/TopBar';
-import { SpatialGrid } from './components/SpatialGrid';
+import { NodeGrid } from './components/SpatialGrid';
 import { SupervisorHub } from './components/SupervisorHub';
 import { ActivityLogs } from './components/ActivityLogs';
 import { SkillLibrary } from './components/SkillLibrary';
@@ -17,7 +17,7 @@ const MainContent: React.FC = () => {
       <TopBar />
 
       <main className="flex-1 flex flex-col">
-        {activeTab === 'grid' && <SpatialGrid />}
+        {activeTab === 'grid' && <NodeGrid />}
         {activeTab === 'supervisor' && <SupervisorHub />}
         {activeTab === 'activity' && <ActivityLogs />}
         {activeTab === 'skills' && <SkillLibrary />}

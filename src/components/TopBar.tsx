@@ -77,7 +77,7 @@ export const TopBar: React.FC = () => {
               : 'border-transparent text-slate-400'
           }`}
         >
-          Spatial Grid
+          Node Grid
           <span className="ml-1.5 text-xs text-slate-500 font-mono tabular-nums">
             ({cubes.length})
           </span>
@@ -125,7 +125,7 @@ export const TopBar: React.FC = () => {
             onClick={() => setActiveTab('grid')}
             className={`px-2 py-1 text-xs rounded ${activeTab === 'grid' ? 'bg-slate-800 text-white' : 'text-slate-400'}`}
           >
-            Grid
+            Nodes
           </button>
           <button
             onClick={() => setActiveTab('supervisor')}
