@@ -1,0 +1,6 @@
+{
+  "name": "Cubes — Autonomous Multi-Agent Workspace",
+  "description": "An interactive multi-agent platform where specialized AI digital employees collaborate, hand off tasks, and execute workflows via a spatial 3D workspace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
